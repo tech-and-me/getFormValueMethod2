@@ -1,7 +1,9 @@
 
 
 const handleOnSubmit = (e) => {
-    // // select myForm 
+    // // Since ....this... keyword is used in html onsubmit as parrameter
+    //we do not need to select the form
+    // ....this...keyword already refer to the form.
     // let myForm = document.getElementById("myForm");
 
 
